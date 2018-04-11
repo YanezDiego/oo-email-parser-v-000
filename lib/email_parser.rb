@@ -4,12 +4,7 @@ require 'pry'
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 class EmailParser
-  #attr_accessor
-
-
-  def initialized(emails)
-    email = self.new
-  end
+  attr_accessor
 
   def parse
     email_split = email_split = emails.delete(",").split(" ")
