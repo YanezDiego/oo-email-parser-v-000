@@ -12,6 +12,5 @@ class EmailParser
 
   def parse
     all = @emails.delete(",").split(" ")
-    binding.pry
   end
 end
