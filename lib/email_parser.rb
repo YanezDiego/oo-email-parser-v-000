@@ -10,11 +10,8 @@ class EmailParser
     @emails = emails
   end
 
-
   def parse
     all = @emails.delete(",").split(" ")
     binding.pry
   end
-
-
 end
