@@ -7,7 +7,7 @@ class EmailParser
   attr_accessor
 
   def parse
-    email_split = email_split = emails.delete(",").split(" ")
+    email_split = emails.delete(",").split(" ")
 
   end
 
