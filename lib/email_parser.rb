@@ -10,10 +10,10 @@ class EmailParser
     @emails = emails
   end
 
-  
-  def parse
-    email_split = emails.delete(",").split(" ")
 
+  def parse
+    all = @emails.delete(",").split(" ")
+    binding.pry
   end
 
 
