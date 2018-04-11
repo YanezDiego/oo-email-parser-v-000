@@ -11,7 +11,6 @@ class EmailParser
 
   def parse(emails)
     email = self.new
-    binding.pry
     email_split = emails.chomp(" ").split(",")
 
   end
